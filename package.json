@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/Inna1312/",
+    "build": "vite build --base=/team-proj-demo/",
     "preview": "vite preview"
   },
   "devDependencies": {
