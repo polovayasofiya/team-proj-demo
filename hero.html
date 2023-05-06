@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@500&family=Epilogue:wght@300;400;600&family=Inter:wght@500;700&family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;600;700;800&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/hero-styles.css" />
+    <link rel="stylesheet" href="./css/hero-media.css" />
+  </head>
+
+  <body>
+    <section class="hero">
+      <div class="container">
+        <!-- hero-desk для h1 та p у desktop -->
+        <div class="hero-desk">
+          <h1 class="hero-title">
+            Welcome to our collection of premium watches
+          </h1>
+          <!-- hero-text-desk додатково зроблений текст для flex у desktop -->
+          <p class="hero-text-desk">
+            Our watches are not just timepieces, but also an expression of your
+            personality and lifestyle. From classic designs to modern ones, we
+            have a watch to suit every taste and occasion.
+          </p>
+        </div>
+        <!-- Slider -->
+        <!-- hero-tabl для flex свайперу і тексту hero-text у tablet -->
+        <div class="hero-desk-images">
+          <!-- Slider -->
+          <div class="hero-tabl-flex">
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <picture>
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/tabl1-1x.jpeg 1x,
+                        ./images/tabl1-2x.jpeg 2x
+                      "
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/hero1-1x.jpeg 1x,
+                        ./images/hero1-2x.jpeg 2x
+                      "
+                    />
+                    <img
+                      class="swiper-img"
+                      src="./images/hero1-1x.jpeg"
+                      alt="watches"
+                    />
+                  </picture>
+
+                  <!-- buttons-numbers для стрілок і нумерації картинок-->
+                  <div class="buttons-numbers">
+                    <div class="swiper-buttons">
+                      <div class="btn-prev">
+                        <button type="button" class="swiper-btn">
+                          <svg class="swiper-btn-icon" width="18" height="18">
+                            <use
+                              href="./images/sprite.svg#icon-chevron-left"
+                            ></use>
+                          </svg>
+                        </button>
+                      </div>
+                      <div class="btn-next">
+                        <button type="button" class="swiper-btn">
+                          <svg class="swiper-btn-icon">
+                            <use
+                              href="./images/sprite.svg#icon-chevron-right"
+                            ></use>
+                          </svg>
+                        </button>
+                      </div>
+                    </div>
+                    <p class="slide-number">
+                      1&nbsp;
+                      <svg class="line-svg">
+                        <use
+                          class="icon"
+                          href="./images/sprite.svg#icon-hero-vector"
+                        ></use>
+                      </svg>
+                      &nbsp;5
+                    </p>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <picture>
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/tabl2-1x.jpeg 1x,
+                        ./images/tabl2-2x.jpeg 2x
+                      "
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/hero2-1x.jpeg 1x,
+                        ./images/hero2-2x.jpeg 2x
+                      "
+                    />
+                    <img
+                      class="swiper-img"
+                      src="./images/hero2-1x.jpeg"
+                      alt="watches"
+                    />
+                  </picture>
+                  <!-- buttons-numbers для стрілок і нумерації картинок-->
+                  <div class="buttons-numbers">
+                    <div class="swiper-buttons">
+                      <div class="btn-prev">
+                        <button type="button" class="swiper-btn">
+                          <svg class="swiper-btn-icon" width="18" height="18">
+                            <use
+                              href="./images/sprite.svg#icon-chevron-left"
+                            ></use>
+                          </svg>
+                        </button>
+                      </div>
+                      <div class="btn-next">
+                        <button type="button" class="swiper-btn">
+                          <svg class="swiper-btn-icon" width="18" height="18">
+                            <use
+                              href="./images/sprite.svg#icon-chevron-right"
+                            ></use>
+                          </svg>
+                        </button>
+                      </div>
+                    </div>
+                    <p class="slide-number">
+                      2&nbsp;
+
+                      <svg class="line-svg">
+                        <use
+                          class="line"
+                          href="./images/sprite.svg#icon-hero-vector"
+                        ></use>
+                      </svg>
+                      &nbsp;5
+                    </p>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <picture>
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/tabl3-1x.jpeg 1x,
+                        ./images/tabl3-2x.jpeg 2x
+                      "
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/hero3-1x.jpeg 1x,
+                        ./images/hero3-2x.jpeg 2x
+                      "
+                    />
+                    <img
+                      class="swiper-img"
+                      src="./images/hero3-1x.jpeg"
+                      alt="watches"
+                    />
+                  </picture>
+                  <div class="buttons-numbers">
+                    <div class="swiper-buttons">
+                      <div class="btn-prev">
+                        <button type="button" class="swiper-btn">
+                          <svg class="swiper-btn-icon" width="18" height="18">
+                            <use
+                              href="./images/sprite.svg#icon-chevron-left"
+                            ></use>
+                          </svg>
+                        </button>
+                      </div>
+                      <div class="btn-next">
+                        <button type="button" class="swiper-btn">
+                          <svg class="swiper-btn-icon" width="18" height="18">
+                            <use
+                              href="./images/sprite.svg#icon-chevron-right"
+                            ></use>
+                          </svg>
+                        </button>
+                      </div>
+                    </div>
+                    <p class="slide-number">
+                      3&nbsp;
+                      <svg class="line-svg">
+                        <use
+                          class="icon"
+                          href="./images/sprite.svg#icon-hero-vector"
+                        ></use>
+                      </svg>
+                      &nbsp;5
+                    </p>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <picture>
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/tabl4-1x.jpeg 1x,
+                        ./images/tabl4-2x.jpeg 2x
+                      "
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/hero4-1x.jpeg 1x,
+                        ./images/hero4-2x.jpeg 2x
+                      "
+                    />
+                    <img
+                      class="swiper-img"
+                      src="./images/hero4-1x.jpeg"
+                      alt="watches"
+                    />
+                  </picture>
+                  <div class="buttons-numbers">
+                    <div class="swiper-buttons">
+                      <div class="btn-prev">
+                        <button type="button" class="swiper-btn">
+                          <svg class="swiper-btn-icon" width="18" height="18">
+                            <use
+                              href="./images/sprite.svg#icon-chevron-left"
+                            ></use>
+                          </svg>
+                        </button>
+                      </div>
+                      <div class="btn-next">
+                        <button type="button" class="swiper-btn">
+                          <svg class="swiper-btn-icon" width="18" height="18">
+                            <use
+                              href="./images/sprite.svg#icon-chevron-right"
+                            ></use>
+                          </svg>
+                        </button>
+                      </div>
+                    </div>
+                    <p class="slide-number">
+                      4&nbsp;
+                      <svg class="line-svg">
+                        <use
+                          class="icon"
+                          href="./images/sprite.svg#icon-hero-vector"
+                        ></use>
+                      </svg>
+                      &nbsp;5
+                    </p>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <picture>
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/tabl5-1x.jpeg 1x,
+                        ./images/tabl5-2x.jpeg 2x
+                      "
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/hero5-1x.jpeg 1x,
+                        ./images/hero5-2x.jpeg 2x
+                      "
+                    />
+                    <img
+                      class="swiper-img"
+                      src="./images/hero5-1x.jpeg"
+                      alt="watches"
+                    />
+                  </picture>
+                  <!-- buttons-numbers для стрілок і нумерації картинок-->
+                  <div class="buttons-numbers">
+                    <div class="swiper-buttons">
+                      <div class="btn-prev">
+                        <button type="button" class="swiper-btn">
+                          <svg class="swiper-btn-icon" width="18" height="18">
+                            <use
+                              href="./images/sprite.svg#icon-chevron-left"
+                            ></use>
+                          </svg>
+                        </button>
+                      </div>
+                      <div class="btn-next">
+                        <button type="button" class="swiper-btn">
+                          <svg class="swiper-btn-icon" width="18" height="18">
+                            <use
+                              href="./images/sprite.svg#icon-chevron-right"
+                            ></use>
+                          </svg>
+                        </button>
+                      </div>
+                    </div>
+                    <p class="slide-number">
+                      5&nbsp;
+                      <svg class="line-svg">
+                        <use
+                          class="icon"
+                          href="./images/sprite.svg#icon-hero-vector"
+                        ></use>
+                      </svg>
+                      &nbsp;5
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slider -->
+
+            <p class="hero-text">
+              Our watches are not just timepieces, but also an expression of
+              your personality and lifestyle. From classic designs to modern
+              ones, we have a watch to suit every taste and occasion.
+            </p>
+          </div>
+
+          <picture>
+            <source
+              srcset="./images/hero-desk1x 1x, ./images/hero-desk2x.jpeg 2x"
+              media="(min-width: 1280px)"
+            />
+            <source
+              srcset="./images/hero-tab1x.jpeg 1x, ./images/hero-tab2x.jpeg 2x"
+              media="(min-width: 768px)"
+            />
+            <source
+              srcset="./images/hero-mob1x.jpeg 1x, ./images/hero-mob2x.jpeg 2x"
+              media="(min-width: 375px)"
+            />
+
+            <img
+              class="hero-img"
+              srcset="./images/hero-mob1x.jpeg 1x, ./images/hero-mob2x.jpeg 2x"
+              src="./images/hero-hand1x.jpeg"
+              alt="Watches on the hand"
+              width="335"
+              height="410"
+            />
+          </picture>
+        </div>
+      </div>
+    </section>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+      const swiper = new Swiper('.mySwiper', {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        loop: true,
+
+        keyboard: {
+          enabled: true,
+        },
+        navigation: {
+          nextEl: '.btn-next',
+          prevEl: '.btn-prev',
+        },
+      });
+    </script>
+  </body>
+</html>
