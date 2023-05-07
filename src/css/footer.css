@@ -1,0 +1,238 @@
+.footer-container {
+  max-width: 375px;
+  padding: 0 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer {
+  background-color: #1e2827;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+.footer-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.footer-address {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.footer-logo {
+  width: 40px;
+  height: 40px;
+}
+.footer-logo-link {
+  display: block;
+  width: 40px;
+}
+.footer-contacts-tel {
+  margin-bottom: 20px;
+}
+.footer-navi-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.footer-contacts-tel {
+  display: block;
+}
+.footer-tel {
+  display: block;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  text-transform: uppercase;
+  color: #ffffff;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-tel:hover,
+.footer-tel:focus,
+.footer-adr:hover,
+.footer-adr:focus,
+.footer-navi-link:hover,
+.footer-navi-link:focus,
+.footer-policy:hover,
+.footer-policy:focus,
+.footer-terms:hover,
+.footer-terms:focus {
+  color: #35734d;
+}
+.footer-adr {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: capitalize;
+  color: #ffffff;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-navi-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  color: #ffffff;
+}
+.footer-social {
+  margin-bottom: 80px;
+}
+.footer-social-list {
+  display: flex;
+  gap: 14px;
+}
+.footer-social-item {
+  width: 40px;
+  height: 40px;
+}
+.footer-social-logo {
+  padding: 8px;
+  width: 40px;
+  height: 40px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 10px;
+}
+.footer-social-logo:hover,
+.footer-social-logo:focus {
+  animation: wiggle 2s linear infinite;
+}
+@keyframes wiggle {
+  0%,
+  7% {
+    transform: rotateZ(0);
+  }
+  15% {
+    transform: rotateZ(-15deg);
+  }
+  20% {
+    transform: rotateZ(10deg);
+  }
+  25% {
+    transform: rotateZ(-10deg);
+  }
+  30% {
+    transform: rotateZ(6deg);
+  }
+  35% {
+    transform: rotateZ(-4deg);
+  }
+  40%,
+  100% {
+    transform: rotateZ(0);
+  }
+}
+.footer-copyright {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  color: #c6cdd1;
+  opacity: 0.9;
+  margin-bottom: 14px;
+}
+.footer-policy {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  color: #c6cdd1;
+  margin-right: 14px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-terms {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  color: #c6cdd1;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+@media screen and (min-width: 768px) {
+  .footer-container {
+    max-width: 768px;
+  }
+  .footer {
+    padding-top: 80px;
+  }
+  .footer-flex {
+    margin-bottom: 152px;
+  }
+  .footer-address {
+    margin-bottom: 0;
+  }
+  .footer-logo {
+    width: 50px;
+    height: 50px;
+  }
+  .footer-logo-link {
+    width: 50px;
+  }
+  .footer-navi-list {
+    gap: 18px;
+  }
+  .footer-tel {
+    font-size: 14px;
+    line-height: 1.29;
+  }
+  .footer-adr {
+    font-size: 14px;
+    line-height: 1.29;
+  }
+  .footer-navi-link {
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: -0.02em;
+  }
+  .footer-social {
+    margin-bottom: 0;
+  }
+  .footer-social-list {
+    gap: 16px;
+  }
+  .footer-social-item {
+    width: 44px;
+    height: 44px;
+  }
+  .footer-social-logo {
+    width: 44px;
+    height: 44px;
+  }
+  .footer-basement {
+    display: flex;
+  }
+  .footer-copyright {
+    margin-right: auto;
+  }
+  .footer-copyright {
+    font-size: 14px;
+    line-height: 1.29;
+    margin-bottom: 0;
+  }
+  .footer-policy {
+    font-size: 14px;
+    line-height: 1.29;
+    margin-right: 18px;
+  }
+  .footer-terms {
+    font-size: 14px;
+    line-height: 1.29;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .footer-container {
+    max-width: 1280px;
+  }
+  .footer {
+    padding-top: 104px;
+    padding-bottom: 32px;
+  }
+  .footer-flex {
+    margin-bottom: 174px;
+  }
+}
