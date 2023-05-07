@@ -1,13 +1,13 @@
 .page-header {
     padding-top: 29px;
     padding-bottom: 29px;
-    padding-left: 20px;
-    padding-right: 20px;
     background-color: #141414;
 }
 
 .container-header {
     max-width: 335px;
+    padding-left: 20px;
+    padding-right: 20px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -85,12 +85,13 @@
     .page-header {
         padding-top: 20px;
         padding-bottom: 20px;
-        padding-left: 32px;
-        padding-right: 32px;
+
     }
 
     .container-header {
-        max-width: 704px;
+        max-width: 768px;
+        padding-left: 32px;
+        padding-right: 32px;
     }
 
     .cont-logo-nav {
@@ -127,13 +128,11 @@
 }
 
 @media screen and (min-width: 1280px) {
-    .page-header {
-        padding-left: 132px;
-        padding-right: 132px;
-    }
 
     .container-header {
-        max-width: 1176px;
+        max-width: 1280px;
+        padding-left: 132px;
+        padding-right: 132px;
     }
 
 }
