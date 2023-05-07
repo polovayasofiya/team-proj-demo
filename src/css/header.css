@@ -1,21 +1,139 @@
-.header {
-  padding: 20px 0;
+.page-header {
+    padding-top: 29px;
+    padding-bottom: 29px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #141414;
 }
 
-.nav-list {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  gap: 40px;
+.container-header {
+    max-width: 335px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.nav-link {
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  line-height: 1.5;
+.logo-container {
+    display: flex;
+    align-items: center;
 }
 
-.nav-link:hover,
-.nav-link:focus {
-  color: #747bff;
+.img-logo {
+    margin-right: 4px;
+}
+
+.logo-header {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+
+.menu-header {
+    display: none;
+}
+
+.adress-tel {
+    display: none;
+}
+
+.menu-header-link {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 1.33;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: block;
+}
+
+.tel-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 159px;
+    height: 48px;
+    background-color: #1E2827;
+    border-radius: 8px;
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 1.33;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.mobile-menu-open {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    width: 24px;
+    height: 24px;
+    background-color: transparent;
+    border: none;
+}
+
+@media screen and (min-width: 768px) {
+    .page-header {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    .container-header {
+        max-width: 704px;
+    }
+
+    .cont-logo-nav {
+        display: flex;
+        align-items: center;
+    }
+
+    .logo-container {
+        margin-right: 80px;
+    }
+
+    .img-logo {
+        width: 19px;
+        height: 19px;
+    }
+
+    .logo-header {
+        font-size: 15px;
+        line-height: 1.02;
+    }
+
+    .menu-header {
+        display: flex;
+        gap: 40px;
+    }
+
+    .adress-tel {
+        display: block;
+    }
+
+    .mobile-menu-open {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .page-header {
+        padding-left: 132px;
+        padding-right: 132px;
+    }
+
+    .container-header {
+        max-width: 1176px;
+    }
+
 }
