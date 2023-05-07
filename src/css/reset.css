@@ -33,6 +33,11 @@ img {
   max-width: 100%;
   height: auto;
 }
+body{
+  font-family: 'Epilogue', sans-serif;
+  background-color: #ffffff;
+  color: rgba(20, 20, 20, 0.5);}
+
 .container {
   width: 100%;
   padding-right: 20px;
