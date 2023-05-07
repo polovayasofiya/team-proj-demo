@@ -4,8 +4,9 @@
   | default @import url()
   |============================
 */
-@import url('./reset.css');
 @import url('./bases.css');
+@import url('./variable.css');
+@import url('./reset.css');
 @import url('./header.css');
 @import url('./modal-mob-menu.css');
 @import url('./hero.css');
@@ -17,18 +18,4 @@
 @import url('./modal-buy-now.css');
 @import url('./vite-promo.css');
 
-:root {
-  font-family: 'Epilogue', sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
 
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-}
