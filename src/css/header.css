@@ -25,8 +25,8 @@
 }
 
 .logo-header {
-    /* font-family: 'Epilogue';
-    font-style: normal; */
+    font-family: 'Epilogue';
+    font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 1;
@@ -43,8 +43,8 @@
 }
 
 .menu-header-link {
-    /* font-family: 'Epilogue';
-    font-style: normal; */
+    font-family: 'Epilogue';
+    font-style: normal;
     font-weight: 400;
     font-size: 9px;
     line-height: 1.33;
@@ -67,8 +67,8 @@
     height: 48px;
     background-color: #1E2827;
     border-radius: 8px;
-    /* font-family: 'Epilogue';
-    font-style: normal; */
+    font-family: 'Epilogue';
+    font-style: normal;
     font-weight: 400;
     font-size: 9px;
     line-height: 1.33;
