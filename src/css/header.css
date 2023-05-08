@@ -140,11 +140,9 @@
 }
 
 @media screen and (min-width: 1280px) {
-
     .container-header {
         max-width: 1200px;
         padding-left: 12px;
         padding-right: 12px;
     }
-
 }
