@@ -1,0 +1,236 @@
+p,
+h2,
+h3 {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+}
+
+img {
+    display: block;
+    height: auto;
+    width: 275px;
+}
+
+.list {
+    list-style: none;
+}
+
+
+.catalog-section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    width: 375px;
+    margin: 0 auto;
+    height: auto;
+}
+
+.catalog-title {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    color: #1E2827;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+
+.catalog-list {
+    display: flex;
+    gap: 40px;
+    padding-left: 0;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.catalog-item>img {
+    margin: auto;
+    padding-top: 43px;
+    padding-bottom: 43px;
+    width: 276px;
+}
+
+.catalog-item {
+    width: 335px;
+    height: 410px;
+    position: relative;
+    overflow: hidden;
+}
+
+.catalog-item:hover .catalog-cover-text {
+    transform: translate(0);
+    background: #1E2827;
+}
+
+.catalog-cover-text {
+    position: absolute;
+    top: 0;
+    border-radius: 8px;
+    padding: 46px 40px;
+    height: 100%;
+    transform: translateY(100%);
+    transition: transform 200ms linear;
+}
+
+.catalog-item>.catalog-cover-text {
+    height: 360px;
+    width: 335px;
+}
+
+.catalog-cover-text>h3 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: transparent;
+}
+
+.catalog-cover-text>h3:not(:first-child) {
+    padding-top: 22px;
+}
+
+.catalog-item:hover .catalog-cover-text>h3 {
+    transform: translate(0);
+    color: #FFFFFF;
+}
+
+.catalog-cover-text>p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.01em;
+    color: transparent;
+    padding-top: 10px;
+}
+
+.catalog-item:hover .catalog-cover-text>p {
+    transform: translate(0);
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.catalog-cover {
+    padding: 30px;
+}
+
+.catalog-paragraph {
+    margin-top: 14px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: #141414;
+}
+
+.catalog-price {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    color: rgba(20, 20, 20, 0.5);
+}
+
+.catalog-desktop {
+    display: none;
+}
+
+.catalog-button {
+    background: #1E2827;
+    border-radius: 8px;
+    height: 42px;
+    width: 108px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 268px 0;
+    cursor: pointer;
+    border: none;
+}
+
+.catalog-button:hover {
+    background-color: #1e2419;
+}
+
+.catalog-button:focus {
+    background-color: #1e2419;
+}
+
+.catalog-section .catalog-button {
+    position: relative;
+    right: 0px;
+}
+
+/* ================768px============== */
+
+@media screen and (min-width: 768px) {
+    .catalog-section {
+        width: 768px;
+    }
+
+    .catalog-button {
+        height: 50px;
+        width: 122px;
+        margin: 40px 646px 0;
+    }
+
+    .catalog-title {
+        margin-left: 40px;
+    }}
+    
+/* ================1280px============== */
+
+@media screen and (min-width: 1280px) {
+    .catalog-section {
+        width: 1280px;
+    }
+
+    .catalog-list {
+        display: flex;
+        gap: 90px 24px;
+        flex-direction: row;
+    }
+
+    .catalog-item {
+        width: calc((100% - 72px) / 4);
+        width: 276px;
+        height: 375px;
+    }
+
+    .catalog-item>img {
+        margin: auto;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .catalog-cover-text {
+        padding: 26px 20px;
+    }
+
+    .catalog-cover-text>h3:not(:first-child) {
+        padding-top: 26px;
+    }
+
+    .catalog-item>.catalog-cover-text {
+        width: 276px;
+        height: 325px;
+    }
+
+    .catalog-paragraph {
+        margin-top: 14px;
+    }
+
+    .catalog-desktop {
+        display: contents;
+    }
+
+    .catalog-button {
+        width: 122px;
+        margin: 40px 1158px 0;
+    }}
