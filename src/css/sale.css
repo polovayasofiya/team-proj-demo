@@ -137,7 +137,11 @@
 /* ----------------DESCkTOP-------------------- */
 
 @media screen and (min-width: 1280px) {
-    
+    .container{
+        width: 1280px;
+        padding-left: 52px;
+        padding-right: 52px;
+    }
     .sale {
         padding-bottom: 160px;
     }
