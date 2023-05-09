@@ -105,9 +105,7 @@
 /* ----------------MOBILE-------------------- */
 
 @media screen and (min-width: 375px) {
-    .container{
-        width: 375px;
-    }
+   
     .sale-watch-title{
         font-size: 24px;
     }
@@ -117,11 +115,7 @@
 /* ----------------TABLET-------------------- */
 
 @media screen and (min-width: 768px){
-    .container{
-        width: 768px;
-        padding-left: 32px;
-        padding-right: 32px;
-    }
+   
     .sale-title{
         font-size: 40px;
         line-height: 1.10;
@@ -143,11 +137,7 @@
 /* ----------------DESCkTOP-------------------- */
 
 @media screen and (min-width: 1280px) {
-    .container{
-        width: 1280px;
-        padding-left: 52px;
-        padding-right: 52px;
-    }
+    
     .sale {
         padding-bottom: 160px;
     }
