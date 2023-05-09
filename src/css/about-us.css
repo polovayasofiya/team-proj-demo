@@ -45,6 +45,8 @@ text-align: justify;
     }
     .about-container {
         max-width: 768px;
+        padding-left: 32px;
+        padding-right: 32px;
     }
     .about-description {
         display: flex;
@@ -75,7 +77,9 @@ text-align: justify;
         padding-bottom: 80px;
     }
     .about-container {
-        max-width: 1280px;
+        max-width: 1200px;
+        padding-left: 12px;
+        padding-right: 12px;
         display: flex;
         flex-wrap: wrap;
         justify-content: end;
