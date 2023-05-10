@@ -213,8 +213,8 @@ padding-top: 40px;
     .catalog-button {
         height: 50px;
         width: 122px;
-        margin: 40px 582px 0;
-    }
+        margin-top: 40px;
+        }
 
     .catalog-title {
         font-size: 40px;
@@ -230,7 +230,7 @@ padding-top: 40px;
 
 /* ================1280px============== */
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1280px){
     .catalog-section {
         width: 1176px;
         /* padding-left: 12px;
@@ -285,5 +285,6 @@ padding-top: 40px;
 
     .catalog-button {
         width: 122px;
-        margin: 40px 1055px 0;
+        margin-top: 40px; 
+      
     }}
