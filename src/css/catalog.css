@@ -30,7 +30,8 @@ img {
 }
 
 .catalog {
-padding: 40px 0;
+padding-top: 40px;
+padding-top: 40px;
 }
 
 .catalog-title {
@@ -202,7 +203,8 @@ padding: 40px 0;
         margin: auto;
     }
     .catalog {
-        padding: 64px 0;
+        padding-top: 64px;
+        padding-bottom: 64px;
     }
         /* .container-catalog {
             width: 704px;
