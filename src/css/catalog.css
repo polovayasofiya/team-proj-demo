@@ -29,6 +29,9 @@ img {
     height: auto;
 }
 
+.catalog {
+padding: 40px 0;
+}
 
 .catalog-title {
     font-weight: 600;
@@ -198,7 +201,9 @@ img {
         /* padding: 64px 32px; */
         margin: auto;
     }
-    
+    .catalog {
+        padding: 64px 0;
+    }
         /* .container-catalog {
             width: 704px;
         } */
@@ -234,6 +239,9 @@ img {
             width: 1176px;
         } */
 
+        .catalog {
+    padding: 80px 0;
+}
     .catalog-list {
         display: flex;
         gap: 64px 24px;
